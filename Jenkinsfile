@@ -16,7 +16,7 @@ pipeline{
         stage('STAGE 3 : Run Python Unit Tests'){
             steps{
                 // run the python unittest for the project
-                bat 'python python -m unittest -v testRestAPI.py'
+                bat 'python -m unittest -v testRestAPI.py'
             }
         }
     }
