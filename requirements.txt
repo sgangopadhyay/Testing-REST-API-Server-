@@ -1,0 +1,2 @@
+requests==2.32.3
+virtualenv==20.27.1
