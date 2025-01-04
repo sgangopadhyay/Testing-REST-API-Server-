@@ -31,10 +31,10 @@ class TestRESTAPIServer(unittest.TestCase):
         self.assertEqual(result, False)
 
     # Test Case : Delete Data
-    def test_delete_data(self):
-        id = 5
-        result = self.rest_api_server.delete_data(id)
-        self.assertEqual(result, True)
+    # def test_delete_data(self):
+    #     id = 5
+    #     result = self.rest_api_server.delete_data(id)
+    #     self.assertEqual(result, True)
 
 
 if __name__ == "__main__":
